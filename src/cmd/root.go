@@ -19,6 +19,7 @@ func Execute() {
 	// Add Commands
 	initDistCmd()
 	rootCmd.AddCommand(distCmd)
+	rootCmd.AddCommand(genSentenceCmd)
 
 	// Dist Cmd
 
